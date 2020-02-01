@@ -4,8 +4,9 @@ import (
 	"context"
 	"fmt"
 	"github.com/micro/go-micro"
+
 	// Import the generated protobuf code
-	pb "shippy-service-consignment/proto/consignment"
+	pb "github.com/JCFlores93/shippy-service-consignment/proto/consignment"
 	"sync"
 )
 
